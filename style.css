@@ -1,0 +1,68 @@
+body
+{
+    background-color: rgb(12, 12, 43);
+}
+h1{
+    color: rgb(239, 20, 191);
+    text-align: center;
+    font-size: 6rem;
+    margin-top: 0%;
+    font-style: italic;
+    text-shadow: 3px 0 #f7f5f6;
+}
+.musical
+{
+    text-align: center;
+    margin: 10% auto;
+}
+.w
+{
+
+}
+.a 
+{
+
+}
+.s 
+{
+
+}
+.d 
+{
+
+}
+.j 
+{
+
+}
+.k 
+{
+
+}
+.l 
+{
+
+}
+button 
+{
+    height: 100px;
+    width:100px;
+    
+}
+.drum 
+{            
+    border: 10px solid  rgb(12, 12, 43);
+    font-size: 5rem;
+    font-style: italic;
+    line-height: 0;
+    font-weight: 900;
+    color: rgb(239, 20, 191);
+    text-shadow: 3px 0 #0f181b;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 8px;
+    background-color: white;
+}

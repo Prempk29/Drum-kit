@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="tom1.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Drum-Kit</title>
+    <style>
+        @media (max-width:600px)
+        {
+            body 
+            {
+                height: 1200px;
+            }
+            h1 
+            {
+                font-size: 3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <h1>Drum-Kit🥁</h1>
+       <div class="musical">
+        <button class="w drum" onclick="one()"><img src="tom1.png" width="60px"></button>
+        <button class="a drum" onclick="one()"><img src="tom2.png" width="60px"></button>
+        <button class="s drum" onclick="one()"><img src="tom3.png" width="42px"></button>
+        <button class="d drum" onclick="one()"><img src="tom4.png" width="42px"></button>
+        <button class="j drum" onclick="one()"><img src="snare.png" width="42px"></button>
+        <button class="k drum" onclick="one()"><img src="crash.png" width="25px"></button>
+        <button class="l drum" onclick="one()"><img src="kick.png" width="59px"></button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
